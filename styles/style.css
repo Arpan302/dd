@@ -1,0 +1,224 @@
+.main{
+    text-align: center;
+    font-family:  "Gill Sans", sans-serif;
+}
+/* banner */
+.banner{
+    background: #121212;
+    background-blend-mode: lighten;
+    background-image: url(../images/donation13.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .90;
+   
+}
+.banner h1{
+    color: rgb(244, 230, 230);
+    padding-top: 150px;
+    font-size: 50px;
+}
+
+.banner p{
+    color:rgb(191, 199, 205);
+    padding: 5px 250px;
+}
+.btn-primary {
+
+font-size: 700;
+font-weight: 500px;
+border: 0;
+padding: 18px 35px;
+border-radius: 5px;
+color: rgb(237, 227, 229);
+background-color: rgb(196, 37, 64);
+}
+
+/* titel */
+.titel{
+    margin-top: 100px;
+    color: black;
+}
+/* des  */
+.des{
+    font-size: 15px;
+    color:rgb(100, 107, 112);
+    padding: 5px 300px;
+    margin-bottom: 30px;
+
+}
+
+/* amount-box  */
+.amount-box{
+    align-items: center;
+    display: flex;
+    padding: 0 250px;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.amount-box button{
+    font-size: 40px;
+    color:rgb(116, 123, 128);
+    background-color: rgb(215, 221, 225);
+    border-radius: 5px;
+    border-width: 0;
+    padding: 40px 20px;
+    margin-left: 10px;
+
+}
+
+.extra-box button{
+    color: rgb(196, 37, 64);
+    background-color: #fdbcbc;
+    border-color:rgb(196, 37, 64);
+    border-width: 3px;
+
+}
+
+/* other-amount */
+
+.other-amount {
+    padding: 15px 300px;
+   
+}
+.other-amount input{
+    border: none;
+    font-size: 20px;
+}
+
+/* items */
+.items{
+   display: flex;
+   gap: 20px;
+   padding: 20px 100px;
+   text-align: left;
+    
+}
+.items1{
+    text-align: left;
+    background-color: #e3f5e6;
+    
+    padding: 50px 30px;
+}
+.items2{
+    text-align: left;
+    background-color: #f7e8e8;
+    border-radius: 5px;
+   
+    padding: 50px 30px;
+}
+.items3{
+    text-align: left;
+    background-color: #f3e1ea;
+    border-radius: 5px;
+   
+    padding: 50px 30px;
+}
+.items-titel{
+    text-align: left;
+    color: black;
+
+}
+.items-des{
+    text-align: left;
+    color: rgb(116, 123, 128);
+}
+
+
+/* how to  */
+
+.how-to{
+    padding: 25px 150px 25px 150px ;
+    display: flex;
+    gap: 25px;
+   
+}
+ 
+.how-titel h1{
+    text-align: left;
+ margin-top: 25px;
+  
+}
+
+.how-titel p{
+    text-align: left;
+    padding: 1px 0px;
+}
+ .img1{
+    padding: 10px 0px;
+
+ }
+
+ /* how-to2  */
+
+ .how-to2{
+    padding: 25px 150px 25px 150px ;
+    display: flex;
+    gap: 25px;
+ }
+
+ .img2{
+    padding: 10px 0px;
+
+ }
+
+ .how-titel2 h1{
+    text-align: right;
+ margin-top: 25px;
+  
+}
+
+.how-titel2 p{
+    text-align: right;
+    padding: 1px 0px;
+}
+
+/* submit */
+
+.submit{
+  
+    background-color: #fdd9c9;
+    margin: 60px 300px 60px 300px;
+  padding: 50px 100px 50px 100px;
+
+}
+
+
+.email{
+    font-size: 700;
+font-weight: 500px;
+border: 0;
+padding: 18px 35px;
+border-radius: 5px;
+
+}
+
+/* footer */
+
+
+.footer{
+    background-color: #07041f;
+    padding: 30px 250px;
+    margin: 0;
+text-align: center
+}
+
+
+.footer-titel{
+    color: rgb(196, 37, 64);
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+.footer-sub{
+    color: #e3f5e6;
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
