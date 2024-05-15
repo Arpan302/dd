@@ -12,12 +12,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     opacity: .90;
-   
+   margin-top: 0;
 }
 .banner h1{
     color: rgb(244, 230, 230);
     padding-top: 150px;
     font-size: 50px;
+    margin-top: 0;
 }
 
 .banner p{
@@ -53,10 +54,11 @@ background-color: rgb(196, 37, 64);
 .amount-box{
     align-items: center;
     display: flex;
-    padding: 0 250px;
+    padding: 0 250px 0 250px;
     gap: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
+    
 }
 .amount-box button{
     font-size: 40px;
