@@ -224,3 +224,51 @@ text-align: center
 }
 
 
+
+/* responsive   */
+
+
+/* mini-device */
+
+@media screen and (max-width:576px){
+
+.banner h1 , p {
+padding: 0 5px;
+}
+ 
+    .items , .how-to , .how-to2, .footer , .amount-box , .banner p  {
+    
+        flex-direction: column;
+        padding: 20px 25px;
+    }
+
+.des {
+    padding: 20px 30px;
+}
+
+.img1 , .img2{
+    width: 90%;
+}
+ 
+}
+
+.submit , .other-amount{
+    margin: 30px;
+    padding: 30px 5px;
+}
+
+
+/* midium-device */
+
+@media screen and (min-width: 577px) , (max-width: 992px){
+    .amount-box, .how-to , .how-to2  {
+        
+        padding: 0 20px;
+    }
+}
+
+
+
+.hide{
+    display: none;
+}
