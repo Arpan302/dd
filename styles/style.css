@@ -54,7 +54,7 @@ background-color: rgb(196, 37, 64);
 .amount-box{
     align-items: center;
     display: flex;
-    padding: 0 250px 0 250px;
+    justify-content: space-around;
     gap: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -267,8 +267,3 @@ padding: 0 5px;
     }
 }
 
-
-
-.hide{
-    display: none;
-}
